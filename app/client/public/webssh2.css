@@ -219,13 +219,13 @@ body, html  {
     width: calc(100% - 1px);
     margin: 0 auto;
     padding: 2px;
-    height: calc(100% - 19px);
+    height: calc(100% - 25px);
 }
 #terminal-container .terminal {
     background-color: #000000;
     color: #fafafa;
     padding: 2px;
-    height: calc(100% - 19px);
+    height: calc(100% - 30px);
 }
 #terminal-container .terminal:focus .terminal-cursor {
     background-color: #fafafa;
@@ -239,7 +239,7 @@ body, html  {
     border-color: white;
     border-style: solid none none none;
     border-width: 1px;
-    z-index: 99;
+    opacity: 0.2;
     height: 19px;
 }
 #footer {
@@ -250,6 +250,7 @@ body, html  {
     padding-right: 5px;
     border-color: white;
     border-style: none none none solid;
+    opacity: 0.2;
     border-width: 1px;
     text-align: left;
 }
@@ -263,6 +264,7 @@ body, html  {
     border-style: none solid none solid;
     border-width: 1px;
     text-align: left;
+    opacity: 0.2;
     z-index: 100;
 }
 #countdown {
@@ -275,6 +277,7 @@ body, html  {
     border-style: none solid none solid;
     border-width: 1px;
     text-align: left;
+    opacity: 0.2;
     z-index: 100;
 }
 #countdown.active {
